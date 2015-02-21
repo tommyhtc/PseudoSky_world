@@ -10,6 +10,8 @@ class Photo < ActiveRecord::Base
   
 
   
+
+
   # Scopes
   scope :active, where('active = ?', true)
   
