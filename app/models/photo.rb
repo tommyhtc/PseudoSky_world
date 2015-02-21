@@ -10,5 +10,12 @@ class Photo < ActiveRecord::Base
   
   # Scopes
   scope :active, where('active = ?', true)
+  
   scope :alphabetical, order('caption')
 end
+
+
+
+
+
+
