@@ -8,6 +8,8 @@ class Photo < ActiveRecord::Base
   # Validations
   validates_presence_of :caption
   
+
+  
   # Scopes
   scope :active, where('active = ?', true)
   
